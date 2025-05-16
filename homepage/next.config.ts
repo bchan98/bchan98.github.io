@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const isGithubPages = proccess.env.GITHUB_PAGES === 'true';
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
 const repo = 'bchan98.github.io';
 const nextConfig: NextConfig = {
   /* config options here */
